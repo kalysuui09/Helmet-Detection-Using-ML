@@ -1,28 +1,44 @@
-# Helmet Detection Using Machine Learning
+🪖 SafeRide AI
 
-Helmet Detection is a real-time computer vision application designed to automatically detect whether a person is wearing a helmet in live video streams or images. The project aims to improve road safety and workplace compliance by enabling automated monitoring using machine learning and deep learning techniques.
----
+SafeRide AI is a computer vision–based web application that automatically detects whether bike riders are wearing helmets in real-time. Using deep learning and image processing techniques, the system helps improve road safety by identifying helmet violations from live camera feeds or uploaded images/videos.
 
 
----
+🌐 Live Demo
+
+[Click here to view the live site]((https://saferide-ai.vercel.app/)
 
 ## 📸 Screenshots
 
-### Road & Transportations
-![Road Helmet Detection](https://raw.githubusercontent.com/USERNAME/REPO_NAME/main/client/src/assets/screenshots/road-helmet-detection.png)
+🔐 Login Page
+![Login Page](https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main/client/src/assets/screenshots/login.png)
 
 
-### Constructions
-![Construction Safety Helmet Detection](client/src/assets/screenshots/construction-safety-helmet.png)
+📊 Detection Dashboard
+![Detection Dashboard](https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main/client/src/assets/screenshots/dashboard.png)
 
-### Military & Law Enforcement
-![Military Helmet Detection](client/src/assets/screenshots/military-helmet-detection.png)
+
+🪖 Helmet Detection Result
+![Helmet Detection Result](https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main/client/src/assets/screenshots/detection.png)
+
+
+
 
 
 ---
 
-## 🚀 Features
-It uses Machine Learning concepts in a real-time computer vision system that automatically detects whether a person is wearing a helmet from images or live video streams. It uses deep learning techniques for accurate helmet and non-helmet classification, enabling automated safety monitoring without manual intervention. The system is efficient, works under varying lighting and environmental conditions, and can be integrated with CCTV or surveillance cameras, making it suitable for road safety enforcement and industrial safety applications.
+🚀 Features
+
+🪖 Detect helmet vs non-helmet riders using deep learning
+
+📹 Supports image, video, and live camera input
+
+🚦 Real-time violation highlighting with bounding boxes
+
+🔐 Secure admin authentication for monitoring access
+
+📊 Store and analyze detection results for reports
+
+⚡ Fast inference using optimized ML models
 
 ## 🛠️ Tech Stack
 
@@ -43,13 +59,28 @@ It uses Machine Learning concepts in a real-time computer vision system that aut
 **Database:**
 - MongoDB / (or whichever DB you're using)
 
----
+🔐 Environment Variables
+PORT=5000
+MONGO_URI=your_mongo_connection_string
+JWT_SECRET=your_jwt_secret_key
+MODEL_PATH=path_to_trained_model
+
+🧠 Project Use Cases
+
+🚓 Traffic police helmet violation monitoring
+🏙️ Smart city surveillance systems
+🏫 Road safety awareness and analytics
+🛣️ Automated traffic rule enforcement
+
+📌 Future Enhancements
+
+📱 Mobile app integration
+🧾 Automatic challan generation
+🧠 Multi-class detection (helmet, mask, seatbelt)
+☁️ Cloud-based large-scale deployment
 
 
 
 
 
-```
-
----
 
