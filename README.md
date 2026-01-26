@@ -9,7 +9,8 @@ Helmet Detection is a real-time computer vision application designed to automati
 ## 📸 Screenshots
 
 ### Road & Transportations
-![Road Helmet Detection](client/src/assets/screenshots/road-helmet-detection.png)
+![Road Helmet Detection](https://raw.githubusercontent.com/USERNAME/REPO_NAME/main/client/src/assets/screenshots/road-helmet-detection.png)
+
 
 ### Constructions
 ![Construction Safety Helmet Detection](client/src/assets/screenshots/construction-safety-helmet.png)
